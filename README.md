@@ -1,1 +1,17 @@
-## please refer to report.pdf
+# Please refer to report.pdf
+## Applicant: Somnath Karmakar (somnathkarmakar1203@gmail)
+
+### This is only a summary of the repo
+
++ `report.pdf` - the final report
++ `serial-euclid.jl` - original serial code
++ `improved-serial.jl` - serial code with some obvious improvements
++ `parallel-euclid` - parallel implementation
++ `benchmark.jl` - gives general time and allocation benchmarks for the 3 implementations
++ `parallel-benchmark.jl` - benchmarks `parallel-euclid.jl` and outs a CSV style result \[number of active cores, execution time, distances effective measured per second\]
++ `run-parallel-benchmark.sh` - shell script orchestrator that runs `parallel-benchmark.jl` from core counts from 1 to total logical cores given by `nproc`
++ `dpms_vs_threads.png` - plot of Distances Measured per Second vs Core Count
++ `time_vs_threads.png` - plot of execution time vs core count
++ `run.png` - 4 runs of `run-parallel-benchmark.sh`
++ `approx.png` - shows that within floating point precision, results of serial and parallel code are the same
++ `subtracted.png` - shows the difference between serial and parallel code output, extremely minute, owing to floating point precision issues
