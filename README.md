@@ -1,5 +1,5 @@
 # Please refer to report.pdf
-## Applicant: Somnath Karmakar (somnathkarmakar1203@gmail)
+## Applicant: Somnath Karmakar (somnathkarmakar1203@gmail.com)
 
 ### This is only a summary of the repo
 
